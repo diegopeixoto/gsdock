@@ -1,5 +1,5 @@
-FROM lsiobase/ubuntu:xenial
-LABEL maintainer "shrmnk <shrmnk@users.noreply.github.com>"
+FROM lsiobase/ubuntu:noble
+LABEL maintainer "diegopeixoto <diegopeixoto@users.noreply.github.com>"
 
 # Exit container if we cannot assume UID/GID
 ENV S6_BEHAVIOUR_IF_STAGE2_FAILS=2 \
