@@ -24,6 +24,11 @@ RUN \
 # add local files
 COPY root/ /
 
+
+#Make sure all init and service scripts are executable
+RUN chmod +x /etc/cont-init.d/*
+RUN chmod +x /etc/services.d/*/*
+
 # [PORTS]
 # WebUI Port
 EXPOSE 11000/tcp
