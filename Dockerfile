@@ -1,4 +1,4 @@
-FROM lsiobase/ubuntu:noble
+FROM ghcr.io/linuxserver/baseimage-ubuntu:noble
 LABEL maintainer "diegopeixoto <diegopeixoto@users.noreply.github.com>"
 
 # Exit container if we cannot assume UID/GID
